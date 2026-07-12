@@ -13,7 +13,6 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserRegistrationDto {
-    private int id;
 
     @NotBlank(message = "Username is required")
     private String userName;

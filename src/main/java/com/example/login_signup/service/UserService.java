@@ -68,7 +68,6 @@ public class UserService {
         for (User user : users) {
             UserDetailsDto dto = new UserDetailsDto();
 
-            dto.setId(user.getId());
             dto.setUserName(user.getUserName());
             dto.setEmail(user.getEmail());
 
